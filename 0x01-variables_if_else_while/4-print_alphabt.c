@@ -10,8 +10,9 @@
  *Return is zero
  */
 int main (void)
+{
 	char letters;
-
+/*for loop with if statement*/
 	for (letters = 'a'; letters <= 'z'; letters++)
 	{
 		if (letters !='e' && letters !='q')
@@ -19,3 +20,4 @@ int main (void)
 	}
 	putchar ('\n');
 	return (0);
+}
