@@ -12,9 +12,9 @@ int main ()
 /*for statement for lowercase alphabet*/
 	for (letters = 'a'; letters <= 'z'; letters++)
 	putchar (letters);
-	putchar ('\n');
 /*for statement for uppercase alphabet*/
 	for (letters = 'A'; letters <= 'Z'; letters++)
 	putchar (letters);
+	putchar ('\n');
 return 0;
 }
