@@ -18,7 +18,7 @@ int main(void)
 	char letters;
 
 /*For loop*/
-	for (letters = 'z'; letters <= 'a'; letters--)
+	for (letters = 'z'; letters >= 'a'; letters--)
 	putchar(letters);
 	putchar('\n');
 
