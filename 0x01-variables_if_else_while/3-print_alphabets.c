@@ -16,6 +16,5 @@ int main ()
 /*for statement for uppercase alphabet*/
 	for (letters = 'A'; letters <= 'Z'; letters++)
 	putchar (letters);
-	putchar ('\n');
 return 0;
 }
