@@ -10,7 +10,7 @@
  *
  * Return: always zero
  */
-int maint(void)
+int main(void)
 {
 /*Variable declaration*/
 	char letters;
