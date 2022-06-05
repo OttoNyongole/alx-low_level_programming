@@ -8,6 +8,7 @@
 void main ()
 {
 /*variable declaration char letters*/
+	char letters;
 /*for statement for lowercase alphabet*/
 	for (letters = 'a'; letters <= 'z'; letters++)
 	putchar (letters);
