@@ -18,5 +18,6 @@ int main(void)
 	for (letters = 'A'; letters <= 'Z'; letters++)
 	putchar (letters);
 	putchar ('\n');
-	return 0;
+/*return value is equal to zerro for success*/
+	return (0);
 }
