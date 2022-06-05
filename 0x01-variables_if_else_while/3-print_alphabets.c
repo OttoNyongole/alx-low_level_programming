@@ -5,10 +5,9 @@
 #include <stdio.h>
 
 /*main function int main*/
-int main (void)
+void main ()
 {
-/*variable declaration*/
-	char letters;
+/*variable declaration char letters*/
 /*for statement for lowercase alphabet*/
 	for (letters = 'a'; letters <= 'z'; letters++)
 	putchar (letters);
