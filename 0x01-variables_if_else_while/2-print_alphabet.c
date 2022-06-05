@@ -3,13 +3,12 @@
  *  */
  
 #include <stdio.h>
-#include <stdio.h>
  /* The main function*/
-int main()
+int main(void)
 {
-	char i;
-	for(i='a'; i<='z'; i++)
-	putchar("\nLower case characters:\n");
+	char letters;
+	for(letters='a'; letters<='z'; letter++)
+	putchar(letter\n);
 	return 0;
 }
 
