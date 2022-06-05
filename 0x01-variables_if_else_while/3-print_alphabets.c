@@ -7,13 +7,14 @@
 /*main function int main*/
 int main ()
 {
+/*variable declaration*/
 	char letters;
-	
-	for (letters='a'; letters<='z'; letters++)
+/*for statement for lowercase alphabet*/
+	for (letters = 'a'; letters <= 'z'; letters++)
 	putchar (letters);
 	putchar ('\n');
-
-	for (letters='A'; letters<='Z'; letters++)
+/*for statement for uppercase alphabet*/
+	for (letters = 'A'; letters <= 'Z'; letters++)
 	putchar (letters);
 	putchar ('\n');
 
