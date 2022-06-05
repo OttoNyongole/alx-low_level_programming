@@ -1,6 +1,8 @@
 /**
  *Printing alphabet in lowercase then in uppercase using putchar
  *function
+ *main function int main initialize the excution of theprogram
+ * return zero to seccess
  */
 #include <stdio.h>
 
