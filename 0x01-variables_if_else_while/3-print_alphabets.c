@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /*main function int main*/
-void main ()
+int main ()
 {
 /*variable declaration char letters*/
 	char letters;
@@ -17,5 +17,5 @@ void main ()
 	for (letters = 'A'; letters <= 'Z'; letters++)
 	putchar (letters);
 	putchar ('\n');
-
+return 0;
 }
