@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /*main function int main*/
-int main ()
+int main (void)
 {
 /*variable declaration*/
 	char letters;
