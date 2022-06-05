@@ -11,7 +11,9 @@
  * Return: always zero
  */
 int main(void)
+
 {
+	
 /*Variable declaration*/
 	char letters;
 
