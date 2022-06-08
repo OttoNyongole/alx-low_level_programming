@@ -3,7 +3,8 @@
 /**
  * main - print _putchar as the message.
  *
- * Return: Always 0. 
+ * Return: Always 0.
+ *
  */
 int main(void)
 {
