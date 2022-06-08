@@ -1,26 +1,25 @@
 #include "main.h"
+
 /**
- * print_sign - Determines if the
- * number is greater equal or less 
- * than zero.
+ * print_sign - Determines if the input number
+ * greater, iqual or less than zero.
  *
- * n: input number is an interger.
+ * @n: The input number as an integer.
  *
- * Return: 1 and print + if greater than zero.
- * Return: 0 and print 0 if equal to zero.
- * Return: -1 and print - if is less than zero.
+ * Return: 1 is greater than zero. 0 is zero.
+ * -1 is less than zero.
  */
 int print_sign(int n)
 {
 	if (n > 0)
 	{
 		_putchar(43);
-		return (0);
+		return (1);
 	}
 	else if (n < 0)
 	{
 		_putchar(45);
-		return (0);
+		return (-1);
 	}
 	else
 	{
