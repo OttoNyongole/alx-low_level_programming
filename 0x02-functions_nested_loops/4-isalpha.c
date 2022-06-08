@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *
- * main - checking for the alphabetic character using int _isalpha(int c).
+ * _isalpha(int c) - checking for the alphabetic character.
  *
  * Retrun: 1 if c is a latter, lowercase or uppercase.
  * 
@@ -13,7 +12,7 @@
  */
 int _isalpha(int c)
 {
-	if ((c >= 97 && c <= 122)||(c >= 65 && c <= 90))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 		return (1);
 	}
