@@ -7,6 +7,7 @@
  *
  */
 
+/*function to print alphabets 10 times*/
 void print_alphabet_x10(void)
 {
 	int a, b;
