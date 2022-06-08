@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- *_isalpha(int c) - checking for the alphabetic character.
+ * _isalpha - Shows 1 if the input is a
+ * letter Another cases, shows 0
  *
- * Retrun: 1 if c is a latter, lowercase or uppercase.
- * 
- * Return: o otherwise.
+ * @c: The character in ASCII code
  *
- * c: the characters is in ASCII code.
- *
+ * Return: 1 for letters. 0 for the rest.
  */
 int _isalpha(int c)
 {
@@ -20,5 +18,4 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-	_putchar('\n');
-}
+	
