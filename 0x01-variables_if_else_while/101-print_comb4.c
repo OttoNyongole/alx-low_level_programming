@@ -1,39 +1,33 @@
-/**
- * c file to print three com numbers
- *
- */
-
 #include <stdio.h>
 
 /**
- * main - prints all possible combinations of three different digits,
- * in ascending order, separated by , followed by space
- *
- * Return: Always o.
+ * main - prints all possible different combinations of three digits
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i, j, k;
+	int n, m, l;
 
-	for (i = 0; i < 8; i++)
+	for (n = 48; n < 58; n++)
 	{
-		for (j = i + 1; j < 9; j++)
+		for (m = 49; m < 58; m++)
 		{
-			for (k = j + 1; k < +10; k++)
+			for (l = 50; l < 58; l++)
 			{
-				putchar((i % 10) + '0');
-				putchar((j % 10) + '0');
-				putchar((k % 10) + '0');
-
-				if (i == 7 && j == 8 && k == 9)
-					continue;
-
-				putchar(',');
-				putchar(' ');
+				if (l > m && m > n)
+				{
+					putchar(n);
+					putchar(m);
+					putchar(l);
+					if (n != 55 || m != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
 			}
 		}
 	}
-	
-	putchar ('\n');
-	return(0);
+	putchar('\n');
+	return (0);
 }
