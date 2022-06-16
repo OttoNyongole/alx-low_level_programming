@@ -1,26 +1,18 @@
-/**
- * c file printing alphabet in reverse
- */
-
 #include <stdio.h>
 
 /**
- * main -program to print lowercase alphabet
- * in reverse
- *
- * Return: always zero
+ * main - prints the lowercase alphabet in reverse,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-	
-/*Variable declaration*/
-	char letters;
+	char ch;
 
-/*For loop*/
-	for (letters = 'z'; letters >= 'a'; letters--)
-	putchar(letters);
+	for (ch = 'z'; ch >= 'a'; ch--)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
-
 	return (0);
 }	
