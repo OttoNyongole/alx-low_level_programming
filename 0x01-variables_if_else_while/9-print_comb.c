@@ -1,31 +1,22 @@
-/**
- * c file printing possible combination
- *
- */
-
 #include <stdio.h>
 
 /**
- * main - print all possible combination
- *of single digit using putchar
- *
- * return:Always zero
- *
+ * main - prints all possible combinations of single-digit numbers
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int i;
+	int n;
 
-	for (i = 0; i <=9; i++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar((i % 10) + '0');
-		if (i == 9)
-			continue;
-		putchar(',');
-		putchar(' ');
+		putchar(n);
+		if (n != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
-	
 	return (0);
 }
