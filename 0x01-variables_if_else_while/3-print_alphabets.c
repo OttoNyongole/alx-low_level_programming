@@ -1,23 +1,18 @@
-/**
- *Printing alphabet in lowercase then in uppercase using putchar
- *function
- *main function int main initialize the excution of theprogram
- * return zero to seccess
- */
 #include <stdio.h>
 
-/*main function int main*/
+/**
+ * main - prints the alphabet in lowercase, and then in uppercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-/*variable declaration char letters*/
-	char letters;
-/*for statement for lowercase alphabet*/
-	for (letters = 'a'; letters <= 'z'; letters++)
-	putchar (letters);
-/*for statement for uppercase alphabet*/
-	for (letters = 'A'; letters <= 'Z'; letters++)
-	putchar (letters);
-	putchar ('\n');
-/*return value is equal to zerro for success*/
+	int ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
+	putchar('\n');
 	return (0);
 }
