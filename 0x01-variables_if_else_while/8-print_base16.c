@@ -1,23 +1,23 @@
-/**
- * c file to print Hexadecimal
- */
 #include <stdio.h>
 
 /**
- * main a program that prints all the 
- * numbers of base 16 in lowercase, followed by a new line.
- * Return: always zero
+ * main - prints all the numbers of base 16 in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int i;
-	char letters;
+	int n;
+	char ch;
 
-	for (i = 0; i < 10; i++)
-		putchar((i % 10) + '0');
-	for (letters = 'a'; letters <= 'f'; letters++)
-		putchar(letters);
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
 	return (0);
 }
