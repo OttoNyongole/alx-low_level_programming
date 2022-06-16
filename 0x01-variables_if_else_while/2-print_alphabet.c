@@ -1,16 +1,18 @@
-/**C program to print all upper case and lower case alphabets.
- *using the putchar function
- */
- 
 #include <stdio.h>
- /*The main function*/
+
+/**
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char letters;
+	char c;
 
-	for (letters='a'; letters<='z'; letters++)
-	putchar (letters);
-	putchar ('\n');
-	return 0;
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+
+	putchar('\n');
+	return (0);
+
 }
-
