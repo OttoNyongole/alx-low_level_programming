@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * factorial(int n);
+ * factorial(int n) - print the factorial of the number n.
  * @n : The number
  * Return: -1 if n is less than 0
  *
