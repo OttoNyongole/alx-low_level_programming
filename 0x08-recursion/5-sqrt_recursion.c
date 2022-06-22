@@ -2,23 +2,31 @@
 /**
  * _sqrt_recursion - function to  print the natural square root of a number
  * @n: is the number
- * Return: -1 if n doesnt have natural sqrt
+ * Return: int number
  */
-int _sqrt_recursion(int n, int i)
+int _sqrt_recursion(int n)
+{
+	return (_sqrt(n, 1));
 {
 
+/**
+ * _sqrt - _sqrt_recursion function
+ * @n: int number
+ * @j: int number
+ */
+int _sqrt(int n, int j)
+{
 	if (n < 0)
 	{
 		return (-1);
 	}
-	if ((i * i) > n)
+	if (j * j > n)
 	{
 		return (-1);
 	}
-	if (i * i == n)
+	if (j * j == n)
 	{
-		return (i);
+		return (j);
 	}
-	return (_sqrt(n, i + 1));
+	return (_sqrt(n, j+ 1));
 }
-
