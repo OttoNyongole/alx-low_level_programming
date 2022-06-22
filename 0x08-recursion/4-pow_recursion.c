@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * _pow_recursion - function that print value of x raised to y.
  *
  * @x: is the base
