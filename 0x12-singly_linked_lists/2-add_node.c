@@ -7,7 +7,7 @@
  * @str: Element to be added to the linked list_t
  * Return: Address of the new element
  */
-list_ *add_node(list_t **head, const char *str)
+list_t *add_node(list_t **head, const char *str)
 {
 	char *dup;
 	int len;
