@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 /**
  * Before - marks printf to execute before main
  */
