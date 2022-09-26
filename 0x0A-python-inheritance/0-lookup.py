@@ -2,7 +2,6 @@
 """my lookup module"""
 
 
-
 def lookup(obj):
-    """Return list of attributes and methods of an object"""
-    return dir(obj)
+        """Return attributes and methods of an object"""
+        return dir(obj)
