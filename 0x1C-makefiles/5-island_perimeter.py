@@ -16,20 +16,20 @@ def island_perimeter(grid):
     visited = set()
 
     def dfs(i, j):
-        """Depth First search implementation"""
-        if i >= len(grid) or j>= len(grid[]):
+        """Implement Dept First Search."""
+        if i >= len(grid) or j >= len(grid[i]):
             return 1
         elif i < 0 or j < 0:
             return 1
-        elif grid[][] == 0:
+        elif grid[i][j] == 0:
             return 1
 
         if (i, j) in visited:
             return 0
 
-        visited.add(i, j)
-        peri = dfs(i, j+)
-        pero += dfs(i+1, j)
+        visited.add((i, j))
+        peri = dfs(i, j+1)
+        peri += dfs(i+1, j)
         peri += dfs(i, j-1)
         peri += dfs(i-1, j)
 
@@ -37,6 +37,6 @@ def island_perimeter(grid):
 
     for i in range(len(grid)):
         for j in range(len(grid[i])):
-            if grid[][] == 1:
+            if grid[i][j] == 1:
                 return dfs(i, j)
     return 0
